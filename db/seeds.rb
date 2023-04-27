@@ -1,5 +1,8 @@
 puts "🌱 Seeding spices..."
 
+Exercise.destroy_all
+Workout.destroy_all
+
 # madeline mentioned something about assigning seed data to variables? Look into this!
 
 Exercise.create([
